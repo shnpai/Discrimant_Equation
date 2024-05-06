@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Discrimant_home</title>
+</head>
+
+<style> 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        label {
+            display: inline-block;
+            width: 50px;
+            margin: 10px;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: lightslategray;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+</style>
+<body>
+    <form action="discrimant.php" method="GET">
+    <!-- Input Values-->
+    <h1>Discrimant of a Quadratic Equation</h1>
+        <p><label for="a"><b>A:</b> </label><input type="text" placeholder="Value of A here" name="a"></p>
+        <p><label for="b"><b>B:</b> </label><input type="text" placeholder="Value of B here" name="b"></p>
+        <p><label for="c"><b>C:</b> </label><input type="text" placeholder="Value of C here" name="c"></p>  
+        <!-- Submit button -->
+        <p><input type="submit" value="Submit" name="getTotal"></p>
+    </form>
+</body>
+</html>
